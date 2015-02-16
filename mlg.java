@@ -25,6 +25,12 @@ public class mlg {
 		caps = thiscaps;
 		defends = thisdefends;
 		}
+	mlg (String thisTeam, String thisPlayer, double thisKD, double thiscaps) {
+		team = thisTeam;
+		player = thisPlayer;
+		kd = thisKD;
+		caps = thiscaps;
+		}
 	public String toString() {
 		String output = "";
 		output = "Team: " + team + " Player: " + player + " K/D: " + kd + " Caps: " + caps + " Defends: " + defends;
